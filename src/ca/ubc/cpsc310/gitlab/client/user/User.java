@@ -13,7 +13,7 @@ public class User implements IUser {
 	
 	private static final long serialVersionUID = -4678920906536621479L;
 	private final String LANG = "LANG";
-	private final String NAME = "NAME";
+	private final String NAME = "SOMETHINGELSE";
 	private final String WISHLIST = "WISHLIST";
 	private final String SHOPPINGCART = "SHOPPINGCART";
 	private List<ProductItem> shoppingCart = new ArrayList<ProductItem>();
@@ -26,7 +26,7 @@ public class User implements IUser {
 	
 	public User()
 	{
-		data.put(WISHLIST, new ArrayList<Object>());
+		data.put(SOMETHINGELSE, new ArrayList<Object>());
 		data.put(SHOPPINGCART, new ArrayList<Object>());
 	}
 	
